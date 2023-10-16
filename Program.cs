@@ -29,7 +29,7 @@ namespace Calculator
 
                 void AddListNum()
                 {
-                    Console.Write("Enter a list of decimal numbers separated by spaces: ");
+                    Console.Write("Enter a list of numbers: ");
                     decimal[] numbers = Console.ReadLine()
                     .Split(' ')
                     .Select(Convert.ToDecimal)
